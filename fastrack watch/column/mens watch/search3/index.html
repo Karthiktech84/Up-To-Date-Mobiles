@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css" integrity="sha512-58P9Hy7II0YeXLv+iFiLCv1rtLW47xmiRpC1oFafeKNShp8V5bKV/ciVtYqbk2YfxXQMt58DjNfkXFOn62xE+g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="fastrack.css">
+
+    <style>
+
+        .main{
+            display: flex;
+            /* background-color: bisque; */
+        }
+
+        .logo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            width: 10%;
+        }
+
+        .watches{
+           
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            width: 70%;
+        }
+
+         .watches1{
+            padding-left: 40px;
+            text-decoration: none;
+            color: black;
+            padding-top: 30px;
+            padding-bottom: 50px;
+
+        }
+        .watches1 h3{
+            text-decoration: underline;
+            color: blue;
+        }
+        .search{
+            
+            width: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        .search i{
+           margin: 10px;
+           
+        }
+        .search .icon1{
+            background-color: rgb(255, 255, 255);
+            padding: 15px;
+            border-radius: 100%;
+            color: rgb(0, 0, 0);
+        }
+        .search .icon1:hover{
+            background-color: rgb(250, 203, 144);
+            color: white;
+        }
+
+        .search .icon2{
+            background-color: rgb(255, 255, 255);
+            padding: 15px;
+            border-radius: 100%;
+            color: rgb(0, 0, 0);
+        }
+        .search .icon2:hover{
+            background-color: rgb(250, 203, 144);
+            color: white;
+            
+        }
+
+        .watches .search2{
+            padding: 10px;
+            width: 45%;
+            border: none;
+            border-radius: 5px;
+            background-color: antiquewhite;
+        }
+
+        .watches .button2{
+            margin: 10px;
+            
+        }
+
+        .watches .button2 button{
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: antiquewhite;
+        }
+        .watches .button2 button:hover{
+            background-color: rgb(250, 203, 144);
+            color: white;
+        }
+
+        .all-watches{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            flex-wrap: wrap;
+        }
+
+         .watch-no1 h3{
+            text-align: center;
+            width: 300px;
+            text-align: justify;
+        } 
+        .watch-no1 .img{
+            margin-top: 50px;
+        }
+        .watch-no1 .img:hover{
+            transform: scale(1.05);
+            transition: 0.6s;
+        }
+
+        .watch-no1 h4{
+            color: lightslategray;
+        }
+
+        .collection{
+            display: flex;
+            border-top: 1px solid gray;
+        }
+        .left-col{
+            height: 50%;
+            width: 50%;
+        }
+
+        .left-col .Shop-By-Gender{
+            color: red;
+        }
+
+        .left-col .gender{
+            display: block;
+            text-decoration: none;
+            padding: 15px;
+            color: black;
+        }
+        .left-col .gender:hover{
+            color: red;
+        }
+
+        .left-col .gender2{
+            display: block;
+            text-decoration: none;
+            padding: 15px;
+            color: black;
+        }
+        .left-col .gender2:hover{
+            color: red;
+        }
+
+        .left-col .gender3{
+            display: block;
+            text-decoration: none;
+            padding: 15px;
+            color: black;
+        }
+        .left-col .gender3:hover{
+            color: red;
+        }
+
+        .left-col .gender4{
+            display: block;
+            text-decoration: none;
+            padding: 15px;
+            color: black;
+        }
+        .left-col .gender4:hover{
+            color: red;
+        }
+        /* ------------------------------------------ */
+
+        .right-col{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+        .right-col .watch-no1 h3{
+            width: 300px;
+            text-align: justify;
+        }
+
+        .right-col .watch-no1{
+            margin-top: 30px;
+        }
+
+        /* ---------------------------------------------- */
+
+       /* .collection{
+            display: flex;
+        }
+        .left-col{
+            background-color: aqua;
+            height: 50%;
+            width: 15%;
+        }
+
+        .left-col .Shop-By-Gender{
+            color: red;
+        }
+
+        .left-col .gender{
+            display: block;
+            text-decoration: none;
+            padding: 15px;
+            color: black;
+        }
+        .left-col .gender:hover{
+            color: red;
+        }
+
+        .left-col .gender2{
+            display: block;
+            text-decoration: none;
+            padding: 15px;
+            color: black;
+        }
+        .left-col .gender2:hover{
+            color: red;
+        }
+
+        .left-col .gender3{
+            display: block;
+            text-decoration: none;
+            padding: 15px;
+            color: black;
+        }
+        .left-col .gender3:hover{
+            color: red;
+        }
+
+        .left-col .gender4{
+            display: block;
+            text-decoration: none;
+            padding: 15px;
+            color: black;
+        }
+        .left-col .gender4:hover{
+            color: red;
+        }  */
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+
+    <div class="logo">
+        <a href="../mens.html">
+        <img src="../logo/fastrack-logo_brandlogos.net_6vw1u.png" alt="logo" width="55px" height="55px"></a>
+    </div>
+
+    <div class="watches">
+        <!-- <a  class="watches1" href="">
+        <h3>WATCHES</h3></a>
+        <a  class="watches1" href="">
+        <h3>SMART WATCHES</h3></a> -->
+        <input class="search2" type="search" placeholder="search here" >
+        <a class="button2" href="../mens.html"><button>Cancel</button></a>
+    </div>
+
+    <div class="search">
+        <a href="./index.html">
+        <i class="fa-solid fa-magnifying-glass icon1"></i></a>
+        <a href="">
+        <i class="fa-regular fa-user icon2"></i></a>
+       
+        
+    </div>
+</div>
+
+<div class="collection">
+
+    <div class="left-col">
+        <h3 class="Shop-By-Gender">Shop By Gender</h3>
+        <a class="gender" href="./mens.html">Men's Watches</a>
+        <a class="gender" href="">Women's Watches</a>
+        <a class="gender" href="">Unisex Watches</a>
+        <a class="gender" href="">Couple Watches</a>
+
+        <h3 class="Shop-By-Gender">Shop By Style</h3>
+        <a class="gender2" href="">Street</a>
+        <a class="gender2" href="">Party</a>
+        <a class="gender2" href="">Elevated Casual</a>
+
+        <h3 class="Shop-By-Gender">Shop By Collection</h3>
+        <a class="gender3" href="">Vyp</a>
+        <a class="gender3" href="">Stunners</a>
+        <a class="gender3" href="">Autometics</a>
+        <a class="gender3" href="">Gambit</a>
+
+        <h3 class="Shop-By-Gender">Shop By Function</h3>
+        <a class="gender4" href="">Multifunction Watches</a>
+        <a class="gender4" href="">Digital Watches</a>
+        <a class="gender4" href="">Analog Watches</a>
+        <a class="gender4" href="">Gronograph</a>
+
+    </div>
+
+
+    <div class="right-col">
+
+        <div class="watch-no1"> 
+            <a href="">
+            <img src="../images3/fast men1.webp" alt="" width="300px" class="img" height="300px"></a>
+            <h3>Fastrack Kronos Chronograph Black Dial Brown Stainless Steel Strap Watch For Guys</h3>
+            <h3>₹6,195.00</h3>
+        </div>
+        <div class="watch-no1"> 
+            <a href="">
+            <img src="../images3/fast men2.webp" alt="" width="300px" class="img" height="300px"></a>
+            <h3>Fastrack Quartz Analog Black Dial Black Stainless Steel Strap Watch for Guys</h3>
+            <h3>₹3,195.00</h3>
+        
+        </div>
+        <div class="watch-no1"> 
+            <a href="">
+            <img src="../images3/fast men3.webp" alt="" width="300px" class="img" height="300px"></a>
+            <h3>Fastrack Thor Quartz Multifunction Red Dial Metal Strap Watch for Guys</h3>
+            <h3>₹4,995.00</h3>
+        </div>
+        <div class="watch-no1"> 
+            <a href="">
+            <img src="../images3/fast men4.webp" alt="" width="300px" class="img" height="300px"></a>
+            <h3>Fastrack Tick Tock Black Dial Watch for Guys</h3>
+            <h3>₹3,795.00</h3>
+        
+        </div>
+        <div class="watch-no1"> 
+            <a href="">
+            <img src="../images3/fast men5.webp" alt="" width="300px" class="img" height="300px"></a>
+            <h3>Fastrack Stunners White Dial Metal Strap Watch for Guys</h3>
+            <h3>₹2,925.00</h3>
+        
+        </div>
+        <div class="watch-no1"> 
+            <a href="">
+            <img src="../images3/fast men10.jpg" alt="" width="300px" class="img" height="300px"></a>
+            <h3>Fastrack Pulse Quartz Analog Anthracite Dial With Black Stainless steel Strap Watch for Guys</h3>
+            <h3>₹2,995.00</h3>
+        
+        </div>
+        <div class="watch-no1"> 
+            <a href="">
+            <img src="../images3/fast7.webp" alt="" width="300px" class="img" height="300px"></a>
+            <h3>Fastrack Thor Quartz Multifunction Red Dial Metal Strap Watch for Guys</h3>
+            <h3>₹4,995.00</h3>
+        
+        </div>
+        <div class="watch-no1"> 
+            <a href="">
+            <img src="../images3/fast men6.webp" alt="" width="300px" class="img" height="300px"></a>
+            <h3>Fastrack Opulence Sun Moon Chronograph Black Dial Brown Leather Strap Analog Quartz Watch For Guys</h3>
+            <h3>₹5,995.00</h3>
+        
+        </div>
+        <div class="watch-no1"> 
+            <a href="">
+            <img src="../images3/fast9.webp" alt="" width="300px" class="img" height="300px"></a>
+            <h3>Fastrack Stunners Quartz Analog Black Dial Stainless Steel Strap Watch for Guys</h3>
+            <h3>₹2,495.00</h3>
+        
+        </div>
+        <div class="watch-no1"> 
+            <a href="">
+            <img src="../images3/fast men7.webp" alt="" width="300px" class="img" height="300px"></a>
+            <h3>Fastrack StreetStyle Digital Dial Translucent Grey PU Strap Watch For Guys</h3>
+            <h3>₹2,395.00</h3>
+        
+        </div>
+        <div class="watch-no1"> 
+            <a href="">
+            <img src="../images3/fast men8.webp" alt="" width="300px" class="img" height="300px"></a>
+            <h3>Fastrack After Dark Blue Dial Leather Strap Watch for Guys</h3>
+            <h3>₹4,195.00</h3>
+        
+        </div>
+        <div class="watch-no1"> 
+            <a href="">
+            <img src="../images3/fast12.webp" alt="" width="300px" class="img" height="300px"></a>
+            <h3>Fastrack Kronos Chronograph Black Dial Black Stainless Steel Strap Watch For Guys</h3>
+            <h3>₹5,895.00</h3>
+        
+        </div>
+        <div class="watch-no1"> 
+            <a href="">
+            <img src="../images3/fast13.webp" alt="" width="300px" class="img" height="300px"></a>
+            <h3>Fastrack Stunners Blue Dial Metal Strap Watch for Guys</h3>
+            <h3>₹1,495.00</h3>
+        
+        </div>
+        <div class="watch-no1"> 
+            <a href="">
+            <img src="../images3/fast men9.webp" alt="" width="300px" class="img" height="300px"></a>
+            <h3>Fastrack Pulse Quartz Analog Blue Dial With Blue Stainless steel Strap Watch for Guys</h3>
+            <h3>₹3,495.00</h3>
+        
+        </div>
+        <div class="watch-no1"> 
+            <a href="">
+            <img src="../images3/fast15.webp" alt="" width="300px" class="img" height="300px"></a>
+            <h3>Fastrack All Nighters Quartz Multifunction Black Dial Leather Strap Watch for Guys</h3>
+            <h3>₹5,495.00</h3>
+        
+        </div>
+        <div class="watch-no1"> 
+            <a href="">
+            <img src="../images3/fast16.webp" alt="" width="300px" class="img" height="300px"></a>
+            <h3>Fastrack Gambit Micromotor Black Dial Blue Metal Strap Analog Watch for Guys</h3>
+            <h3>₹7,695.00</h3>
+        </div>
+
+
+    </div>
+</div>
+</body>
+</html>
