@@ -1,0 +1,32 @@
+.content{
+    display: flex;
+}
+.container{
+width: 500px;
+height: 70vh;
+text-align: center;
+background-image: url("./mac air m2.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+p{
+    color: rgb(3, 96, 45);
+    padding-left: 30px;
+}
+h2{
+    padding-left: 30px;
+    color: navy;
+}
+h1{
+    color: red;
+    padding-left: 30px;
+}
+h4{
+    color: rgb(4, 97, 4);
+    padding-left: 30px;
+}
+.container2{
+    background-image: linear-gradient(to right, rgb(76, 201, 208), rgb(146, 109, 177));
+    width: 100vh;
+}
