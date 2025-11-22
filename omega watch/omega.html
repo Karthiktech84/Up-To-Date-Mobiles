@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="omega.css">
+
+    <style>
+       .main{
+        display: flex;
+        background-color: rgb(236, 243, 243);
+       }
+
+       .logo{
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 10%;
+       }
+
+       .search{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 65%;
+       }
+
+       .search .search2{
+        width: 50%;
+        padding: 8px;
+        border: none;
+        border-radius: 10px;
+       }
+
+       .search button{
+        padding: 8px;
+        border: none;
+        border-radius: 10px;
+        margin-left: 10px;
+        cursor: pointer;
+        background-color: rgb(209, 237, 237);
+       }
+
+
+       .home{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 25%;
+       }
+
+       .home a{
+        text-decoration: none;
+        color: black;
+       }
+
+       .second-main{
+        display: flex;
+        
+       }
+
+       .collection{
+        width: 15%;
+        display: grid;
+        height: 80%;
+       }
+
+       .collection .special{
+        color: blue;
+       }
+
+       .collection a {
+       
+        color: red;
+        text-decoration: none;
+       }
+
+       .collection .collection-watches{
+        color: black;
+        padding-top: 10px;
+       } 
+
+       .collection .collection-watches:hover{
+        color: red;
+       }
+
+       .collection .collection-watches1{
+        color: black;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(211, 215, 219);
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+       } 
+
+       .collection .collection-watches1:hover{
+        background-color: rgb(181, 182, 184);
+       }
+
+       .collection .collection-watches2{
+        color: black;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(211, 215, 219);
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+       }
+
+       .collection .collection-watches2:hover{
+        background-color: rgb(181, 182, 184);
+       }
+
+       .collection .collection-watches3{
+        color: black;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(211, 215, 219);
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+       }
+
+       .collection .collection-watches3:hover{
+        background-color: rgb(181, 182, 184);
+       }
+
+       .collection .collection-watches4{
+        color: black;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(211, 215, 219);
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+       }
+
+       .collection .collection-watches4:hover{
+        background-color: rgb(181, 182, 184);
+       }
+
+   .third-main{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 100%;
+   }
+   .third-main .images:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+   }
+
+   .third-main .images{
+    margin-top: 50px;
+    }
+    .third-main .images h3{
+        width: 300px;
+    }
+    .third-main .images p{
+        width: 300px;
+    }
+   .third-main a .img{
+    background-color: rgb(233, 241, 241);
+   }
+
+   /* .third-main .images p{
+        width: 100%;     
+   } */
+
+    .watch-finder{
+        
+        height: 30vh;
+        width: 87%;
+        text-align: center;
+        padding-top: 20px;
+
+    }
+
+
+    .watch-finder h2{
+        font-size: 40px;
+        color: red;
+    }
+
+    .emty-area{
+
+        display: flex;
+
+    }
+
+    .emty-area .home2{
+        width: 13%;
+        padding-top: 20px;
+    }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+
+    <div class="logo">
+        <img src="./images/logo/omega.png" alt="" width="50px" height="50px">
+    </div>
+
+    <div class="search">
+        <input class="search2" type="search" placeholder="Search Here">
+        <a href="#"><button>Search...</button></a>
+    </div>
+
+    <div class="home">
+        <a href="../watch/watch.html">Home</a>
+        <a href="">About</a>
+        <a href="">Accound</a>
+    </div>
+</div>
+
+
+<div class="emty-area">
+
+
+<div class="home2">
+    <p class="special">HOME / WATCH FINDER</p>
+</div>
+
+<div class="watch-finder">
+    <h2>WATCH FINDER</h2>
+</div>
+</div>
+
+<div class="second-main">
+
+<div class="collection">
+    
+    <a href=""><p>COLLECTIONS</p></a>
+    <a class="collection-watches" href="">Seamaster</a>
+    <a class="collection-watches" href="">Speedmaster</a>
+    <a class="collection-watches" href="">Constellation</a>
+    <a class="collection-watches" href="">De Ville</a>
+    <a class="collection-watches" href="">Specialities</a>
+
+
+    <a href=""><p>CASE</p></a>
+    <a class="collection-watches" href="">steel</a>
+    <a class="collection-watches" href="">Steel - Gold</a>
+    <a class="collection-watches" href="">Gold</a>
+
+
+    <a href=""><p>DISCOVER ALSO</p></a>
+    <a class="collection-watches1" href="">Men's Selection</a>
+    <a class="collection-watches2" href="">Women's Selection</a>
+    <a class="collection-watches3" href="">Div Watches</a>
+    <a class="collection-watches4" href="">Sport Watches</a>
+
+</div>
+
+
+
+
+
+<div class="third-main">
+
+<div class="images">
+    <a href=""><img src="./images/31 mm 1.avif" class="img" alt="" width="300px" height="300px"></a>
+    <h3>CONSTELLATION GLOBEMASTER</h3>
+    <p>31 MM, STEEL ON STEEL</p>
+    <p>₹7,900</p>
+    <a class="details" href="">Details</a>
+</div>
+
+<div class="images">
+    <a href=""><img src="./images/omega 41 mm 1.avif" class="img" alt="" width="300px" height="300px"></a>
+    <h3>SPEEDMASTER PILOT</h3>
+    <p>40.85 MM, STEEL ON STEEL</p>
+    <p>₹9,24,600</p>
+    <a href="">Details</a>
+</div>
+
+<div class="images">
+    <a href=""><img src="./images/OMEGA 42 MM.png" class="img" alt="" width="300px" height="300px"></a>
+    <h3>SEAMASTER DIVER 300M</h3>
+    <p>42 MM,TITANIUM-BRONZE GOLD ON TITANIUM</p>
+    <P>₹10,47,100</P>
+    <a href="">Details</a>
+</div>
+
+<div class="images">
+    <a href=""><img src="./images/41 mm 150m.avif" class="img" alt="" width="300px" height="300px"></a>
+    <h3>SEAMASTER AQUA TERRA 150M</h3>
+    <p>41 MM, STEEL ON STEEL</p>
+    <p>₹6,46,100</p>
+    <a href="">Details</a>
+</div>
+
+<div class="images">
+    <a href=""><img src="./images/38 mm 150m.avif" class="img" alt="" width="300px" height="300px"></a>
+    <h3>SEAMASTER AQUA TERRA 150M</h3>
+    <p>38 MM, STEEL ON STEEL</p>
+    <p>₹6,46,100</p>
+    <a href="">Details</a>
+</div>
+
+<div class="images">
+    <a href=""><img src="./images/42 MM 300M.avif" class="img" alt="" width="300px" height="300px"></a>
+    <h3>SEAMASTER DIVER 300M</h3>
+    <p>42 MM, STEEL ON STEEL</p>
+    <p>₹6,35,000</p>
+    <a href="">Details</a>
+</div>
+
+<div class="images">
+    <a href=""><img src="./images/42 mm rupper.avif" class="img" alt="" width="300px" height="300px"></a>
+    <h3>SEAMASTER DIVER 300M</h3>
+    <p>42 MM, STEEL ON RUBBER STRAP</p>
+    <p>₹5,79,300</p>
+    <a href="">Details</a>
+</div>
+<div class="images">
+    <a href=""><img src="./images/42 mm 300 m rubbre 2.avif" class="img" alt="" width="300px" height="300px"></a>
+    <h3>SEAMASTER DIVER 300M</h3>
+    <p>42 MM, STEEL ON RUBBER STRAP</p>
+    <p>₹5,79,300</p>
+    <a href="">Details</a>
+</div>
+<div class="images">
+    <a href=""><img src="./images/42 mm 300 m sedna.avif" alt="" width="300px" class="img" height="300px"></a>
+    <h3>SEAMASTER DIVER 300M</h3>
+    <p>42 MM, SEDNA GOLD ON RUBBER STRAP</p>
+    <p>₹28,62,800</p>
+    <a href="">Details</a>
+</div>
+<div class="images">
+    <a href=""><img src="./images/39.7 mm.avif" alt="" width="300px" class="img" height="300px"></a>
+    <h3>SPEEDMASTER FIRST OMEGA IN SPACE</h3>
+    <p>39.7 MM, STEEL ON STEEL</p>
+    <p>₹7,68,700</p>
+    <a href="">Details</a>
+</div>
+<div class="images">
+    <a href=""><img src="./images/39.7 mm leather.webp" alt="" width="300px" class="img" height="300px"></a>
+    <h3>SPEEDMASTER FIRST OMEGA IN SPACE</h3>
+    <p>39.7 MM, STEEL ON LEATHER STRAP</p>
+    <p>₹7,68,700</p>
+    <a href="">Details</a>
+</div>
+<div class="images">
+    <a href=""><img src="./images/34 mm.avif" alt="" width="300px" class="img" height="300px"></a>
+    <h3>DE VILLE PRESTIGE</h3>
+    <p>34 MM, STEEL ON STEEL</p>
+    <p>₹9,58,000</p>
+    <a href="">Details</a>
+</div>
+<div class="images">
+    <a href=""><img src="./images/30 mm sedna.avif" alt="" width="300px" class="img" height="300px"></a>
+    <h3>DE VILLE PRESTIGE</h3>
+    <p>30 MM, SEDNA GOLD ON STEEL - SEDNA GOLD</p>
+    <p>₹10,58,300</p>
+    <a href="">Details</a>
+</div>
+<div class="images">
+    <a href=""><img src="./images/46.75 mm.avif" alt="" width="300px" class="img" height="300px"></a>
+    <h3>SEAMASTER REGATTA</h3>
+    <p>46.75 MM, TITANIUM ON RUBBER STRAP</p>
+    <p>₹7,24,100</p>
+    <a href="">Details</a>
+</div>
+<div class="images">
+    <a href=""><img src="./images/29 mm.avif" alt="" width="300px" class="img" height="300px"></a>
+    <h3>CONSTELLATION</h3>
+    <p>29 MM, STEEL ON ALLIGATOR</p>
+    <p>₹11,14,000</p>
+    <a href="">Details</a>
+</div>
+
+</div>
+</div>
+</body>
+</html>

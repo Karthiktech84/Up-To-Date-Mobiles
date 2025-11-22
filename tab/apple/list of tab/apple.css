@@ -1,0 +1,35 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* .container > a > button{
+    border: 3px;
+    border-radius: 5px;
+    cursor: pointer;  
+    padding: 15px;
+
+}
+.container > a >button{
+    background-color: lightslategray;
+} 
+.container > a > button:hover{
+    background-color: aqua;
+} */
+.container{
+    margin-top: 50px;
+    padding: 30px;
+    border: 1px solid grey;
+}
+.container > a >img{
+    border: 1px solid grey;
+    /* background-color: rgb(225, 170, 103); */
+    border-radius: 5px;
+}
+.container:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+a > button{
+    cursor: pointer;
+}

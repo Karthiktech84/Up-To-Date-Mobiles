@@ -1,0 +1,191 @@
+body{
+    font-family: "Roboto", serif;
+font-optical-sizing: auto;
+}
+.main{
+    display: flex;
+}
+.nav-bar{
+    background-color: rgb(0, 0, 0);
+}
+.nav-bar h3{
+    padding:20px;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+}
+.first-col{
+    width: 25%;
+    text-align: center;
+}
+
+/* -------------------------------------- */
+
+.secound-col{
+    display: flex;
+    width: 150%;
+    align-items: center;
+    justify-content: center;
+}
+.secound-col .secound-col-search{
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    border: 0px solid grey;
+    border-radius: 5px;
+    background-color: rgb(255, 241, 253);
+}
+.secound-col .secound-col-search:hover{
+    border: 0px;
+}
+.secound-col .first-button{
+    padding: 10px;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 5px;
+    background-color: rgb(255, 241, 253);
+}
+.secound-col .first-button:hover{
+    background-color: rgb(241, 209, 241);
+    border: 0px;
+}
+
+/* --------------------------- */
+
+.third-col{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.third-col .third-col-a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+.third-col .third-col-a:hover{
+    text-decoration: underline;
+    color: rgb(232, 156, 241);
+    text-decoration-color: rgb(228, 96, 243);
+}
+
+/* ----------------------------- */
+
+.secound-main{
+    display: flex;
+    background-color: rgb(255, 241, 253);
+}
+.secound-main .secound-main-first-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-right: 25%;
+    padding-left: 30px;
+}
+.secound-main .secound-main-first-col h4{
+    padding-right: 29px;
+}
+.secound-main-first-col .secound-main-first-a2{
+    padding: 8px;
+    margin: 20px;
+    color: black;
+    border: 0px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: white;
+}
+.secound-main-first-col .secound-main-first-a2:hover{
+    background-color: rgb(241, 209, 241);
+    border: 0px solid rgb(247, 105, 225);
+}
+.secound-main .secound-main-secound-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.secound-main-secound-col .secound-main-secound-col-a3{
+    margin: 20px;
+    padding: 8px;
+    text-decoration: none;
+    border: 0px solid grey;
+    border-radius: 5px;
+    color: black;
+    width: 25%;
+    text-align: center;
+    background-color: white;
+}
+.secound-main-secound-col .secound-main-secound-col-a3:hover{
+    background-color: rgb(241, 209, 241);
+    border: 0px;
+}
+
+/* ------------------------------------- */
+.best-selling-watches{
+    padding-left: 30px;
+}
+.main3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.container > a > button{
+    border: 3px;
+    border-radius: 5px; 
+    padding: 15px; 
+}
+.container > a > button:hover{
+    background-color: aqua;
+}
+.container{
+    padding: 30px;
+}
+.container:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+.container h3{
+    width: 300px;
+    text-align: justify;
+}
+.container h4{
+   color: darkgrey;
+}
+.container > a >button{
+    padding-left: 10px;
+    background-color: lightslategray;
+}
+.container > a >img{
+    border: 2px solid grey;
+    border-radius: 3px;
+}
+a > button{
+    cursor: pointer;
+}
+
+.couple-watches{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 241, 253);
+    padding: 10px;
+    
+}
+.couple-watches .couple-watches-1{
+    margin: 10px;
+    text-decoration: none;
+    padding-left: 19px;
+   
+}
+.couple-watches .couple-watches-2{
+    margin: 10px;
+    text-decoration: none;
+}
+.couple-watches .couple{
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 5px;
+}
+.couple{
+    margin: 4px;
+}

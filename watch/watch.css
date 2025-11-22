@@ -1,0 +1,167 @@
+/* .container3{
+    display: flex;
+    align-items: top;
+    padding-top: 100px;
+    justify-content: space-around; 
+} */
+
+
+
+.bar{
+    display: flex;
+}
+.home-logo{
+    background-color: rgb(220, 227, 250);
+    width: 20%;
+    text-align: center;
+}
+.up-to-date-mobiles{
+    width: 100%;
+    padding-left: 25%;
+}
+header{
+    background-color: rgb(220, 227, 250);
+    padding: 5px;
+    color: rgb(26, 46, 88);
+}
+.con{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    display: flex;
+    /*flex-direction: row-reverse;
+    flex-wrap: wrap;*/
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(236, 239, 247);
+}
+.container .items{
+    margin: 10px;
+}
+.container3 .watch{
+    text-decoration: none;
+    margin: 15px;
+    /* background-color: rgb(255, 255, 255); */
+    padding: 8px;
+    border-radius: 5px;
+    color: black;
+}
+.container3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(245, 248, 250);
+}
+.container3 .watch:hover{
+    
+    color: rgb(16, 10, 89);
+}
+.items{
+    color: black;
+    text-align: center;
+    margin: 15px;
+    text-decoration: none;
+    background-color: white;
+    padding: 8px;
+    border: 0px;
+    border-radius: 5px;
+}
+.items:hover{
+    
+    color: rgb(16, 10, 89);
+}
+.items1{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    margin: 15px;
+    text-decoration: none;
+    background-color: white;
+    padding: 8px;
+    border: 0px;
+    border-radius: 5px;
+}
+.items1:hover{
+    
+    color: rgb(16, 10, 89);
+}
+
+/* ----------------------------------------------- */
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} 
+.container2{
+    padding: 30px;
+}
+.container2:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+.container2 > a >img{
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+.container2 h3{
+    width: 300px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .class{
+    text-decoration: none;
+    color: red;
+}
+.watch1{
+    background-image: url("./titan.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.watch2{
+    background-image: url("./rolex.webp");
+    background-size: cover;
+    background-position: center;
+}
+.watch3{
+    background-image: url("./citizen-logo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.watch4{
+    background-image: url("./ome.png");
+    background-size: cover;
+    background-position: center;
+}
+.watch5{
+    background-image: url("./fast-track.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.watch6{
+    background-image: url("./sonata.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.watch7{
+    background-image: url("./unnamed.png");
+    background-size: cover;
+    background-position: center;
+}
+.watch8{
+    background-image: url("./timex.png");
+    background-size: cover;
+    background-position: center;
+} */
